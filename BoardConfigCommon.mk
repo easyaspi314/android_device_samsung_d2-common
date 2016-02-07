@@ -90,4 +90,6 @@ TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 BOARD_HAS_NO_REAL_SDCARD := true
 TW_INCLUDE_CRYPTO := true
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_MAX_BRIGHTNESS := 255
 
